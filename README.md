@@ -9,9 +9,9 @@ The project assignment gives students an opportunity to apply different aspects 
 1. [Getting Started](#getting-started)
 2. [Dataset](#dataset)
 3. [Model](#model)
-4. Results
-5. Contributing
-6. License
+4. [Results](#results)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -144,6 +144,57 @@ For modeling customer satisfaction, we tried multiple classification techniques.
 - Best cross-validation score: 0.815
 - Test accuracy of the best model: 0.829
 
+## Results
+From preliminary observation, we observe that Random Forest and XGBoost perform extremely well on our dataset followed by Logistic Regression and SVMs.
+
+### Logistic Regression
+![Logistic Regression report](Result%20Graph/LogisticRegression_report.JPG)
+
+Confusion Matrix:
+
+![Logistic Regression cm](Result%20Graph/LogisticRegression_cm.png)
+
+### Random Forest
+![Random Forest report](Result%20Graph/RandomForest_report.JPG)
+
+Confusion Matrix:
+
+![Random Forest cm](Result%20Graph/RandomForest_cm.png)
+
+### XGBoost
+![XGBoost report](Result%20Graph/XGBoost_report.JPG)
+
+Confusion Matrix:
+
+![XGBoost cm](Result%20Graph/XGBoost_cm.png)
+
+### Support Vector Machines
+![SVM report](Result%20Graph/SVM_report.JPG)
+
+Confusion Matrix:
+
+![SVM cm](Result%20Graph/SVM_cm.png)
 
 
+## Contributing
+If you would like to contribute to this project, please follow these steps:
 
+1. Fork the repository
+2. Create a new branch 
+```
+git checkout -b new-feature
+```
+3. Make your changes
+4. Commit your changes 
+```
+git commit -m 'Add some feature'
+```
+
+5. Push to the branch 
+```
+git push origin new-feature
+```
+6. Create a new Pull Request
+
+## License 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
